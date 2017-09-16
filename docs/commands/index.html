@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Commands - DEA Discord Bot</title>
+  <title>Comprehensive list of SauceBot commands</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -35,7 +35,7 @@
     
     <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
       <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> DEA Discord Bot</a>
+        <a href=".." class="icon icon-home"> SauceBot - Discord Bot</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
     <input type="text" name="q" placeholder="Search docs" />
@@ -62,25 +62,17 @@
     <a class="current" href="./">Commands</a>
     <ul class="subnav">
             
-    <li class="toctree-l2"><a href="#table-of-contents">Table Of Contents</a></li>
+    <li class="toctree-l2"><a href="#table-of-contents">Contents</a></li>
     
         <ul>
         
-            <li><a class="toctree-l3" href="#administration">Administration</a></li>
-        
-            <li><a class="toctree-l3" href="#botowners">Botowners</a></li>
-        
-            <li><a class="toctree-l3" href="#crime">Crime</a></li>
-        
-            <li><a class="toctree-l3" href="#gambling">Gambling</a></li>
+            <li><a class="toctree-l3" href="#administration">Administrative</a></li>
         
             <li><a class="toctree-l3" href="#general">General</a></li>
         
             <li><a class="toctree-l3" href="#moderation">Moderation</a></li>
         
             <li><a class="toctree-l3" href="#owners">Owners</a></li>
-        
-            <li><a class="toctree-l3" href="#sponsor">Sponsor</a></li>
         
             <li><a class="toctree-l3" href="#system">System</a></li>
         
@@ -100,7 +92,7 @@
       
       <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
         <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">DEA Discord Bot</a>
+        <a href="..">SauceBot - Discord Bot</a>
       </nav>
 
       
@@ -115,7 +107,7 @@
     <li>Commands</li>
     <li class="wy-breadcrumbs-aside">
       
-        <a href="https://github.com/RealBlazeIt/DEA/edit/master/docs/commands.md"
+        <a href="https://github.com/LumiteDubbz/lumitedubbz.github.io/edit/master/docs/index.html"
           class="icon icon-github"> Edit on GitHub</a>
       
     </li>
@@ -127,18 +119,14 @@
               
                 <p>All commands are catagorized by groups. Each of the following sections is a group.</p>
 <p>The syntax of the command usage is:</p>
-<p><code>Optional paramater: []</code></p>
-<p><code>Required paramater: &lt;&gt;</code></p>
+<p><code>Non-compulsory: []</code></p>
+<p><code>Compulsory (command will not function without): &lt;&gt;</code></p>
 <h2 id="table-of-contents">Table Of Contents</h2>
 <ul>
 <li><a href="#administration">Administration</a></li>
-<li><a href="#botowners">Botowners</a></li>
-<li><a href="#crime">Crime</a></li>
-<li><a href="#gambling">Gambling</a></li>
 <li><a href="#general">General</a></li>
 <li><a href="#moderation">Moderation</a></li>
 <li><a href="#owners">Owners</a></li>
-<li><a href="#sponsor">Sponsor</a></li>
 <li><a href="#system">System</a></li>
 </ul>
 <h3 id="administration">Administration</h3>
@@ -155,206 +143,42 @@
 <tr>
 <td>Addrank</td>
 <td>Add a rank.</td>
-<td><code>$addrank &lt;@role&gt; &lt;cashRequired&gt;</code></td>
+<td><code>+addrank &lt;@role&gt; &lt;cashRequired&gt;</code></td>
 </tr>
 <tr>
 <td>Disablewelcome</td>
 <td>Disables the welcome message.</td>
-<td><code>$disablewelcome</code></td>
+<td><code>+disablewelcome</code></td>
 </tr>
 <tr>
 <td>Removerank</td>
 <td>Remove a rank role.</td>
-<td><code>$removerank &lt;@role&gt;</code></td>
+<td><code>+removerank &lt;@role&gt;</code></td>
 </tr>
 <tr>
 <td>Setmodlog</td>
 <td>Sets the mod log channel.</td>
-<td><code>$setmodlog &lt;#channel&gt;</code></td>
+<td><code>+setmodlog &lt;#channel&gt;</code></td>
 </tr>
 <tr>
 <td>Setmutedrole</td>
 <td>Sets the muted role.</td>
-<td><code>$setmutedrole &lt;@role&gt;</code></td>
-</tr>
-<tr>
-<td>Setpointsrequired</td>
-<td>Sets the amount of points required per day of sponsorship.</td>
-<td><code>$setpointsrequired &lt;daily points required&gt;</code></td>
-</tr>
-<tr>
-<td>Setsponsorrole</td>
-<td>Sets the sponsor role.</td>
-<td><code>$setsponsorrole &lt;@role&gt;</code></td>
-</tr>
-<tr>
-<td>Settop10</td>
-<td>Sets the Top 10 role.</td>
-<td><code>$settop10 &lt;@role&gt;</code></td>
-</tr>
-<tr>
-<td>Settop25</td>
-<td>Sets the Top 25 role.</td>
-<td><code>$settop25 &lt;@role&gt;</code></td>
-</tr>
-<tr>
-<td>Settop50</td>
-<td>Sets the Top 50 role.</td>
-<td><code>$settop50 &lt;@role&gt;</code></td>
+<td><code>+setmutedrole &lt;@role&gt;</code></td>
 </tr>
 <tr>
 <td>Setwelcome</td>
 <td>Sets the welcome message.</td>
-<td><code>$setwelcome &lt;message&gt;</code></td>
+<td><code>+setwelcome &lt;message&gt;</code></td>
 </tr>
 </tbody>
-</table>
-<h3 id="botowners">Botowners</h3>
-<p>These commands may only be used by the owners of DEA.</p>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Description</th>
-<th>Usage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Eval</td>
-<td>Evalute JavaScript code.</td>
-<td><code>$eval &lt;code&gt;</code></td>
-</tr>
-<tr>
-<td>Modifycash</td>
-<td>Allows you to modify the cash of any member.</td>
-<td><code>$modifycash &lt;amount&gt; [@member]</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="crime">Crime</h3>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Description</th>
-<th>Usage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bully</td>
-<td>Bully any user by changing their nickname.</td>
-<td><code>$bully &lt;@member&gt; &lt;nickname&gt;</code></td>
-</tr>
-<tr>
-<td>Jump</td>
-<td>Jump some trash for cash on the street.</td>
-<td><code>$jump</code></td>
-</tr>
-<tr>
-<td>Kill</td>
-<td>Kill a nigga.</td>
-<td><code>$kill &lt;@member&gt;</code></td>
-</tr>
-<tr>
-<td>Scam</td>
-<td>Scam some noobs on the streets.</td>
-<td><code>$scam</code></td>
-</tr>
-<tr>
-<td>Steal</td>
-<td>Hop the big guns and lick a store.</td>
-<td><code>$steal</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="gambling">Gambling</h3>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Description</th>
-<th>Usage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>25+</td>
-<td>Roll 25.00 or higher on a 100.00 sided die to win 0.2X your bet.</td>
-<td><code>$25+ &lt;bet&gt;</code></td>
-</tr>
-<tr>
-<td>50x2</td>
-<td>Roll 50.0 or higher on a 100.00 sided die to win your bet.</td>
-<td><code>$50x2 &lt;bet&gt;</code></td>
-</tr>
-<tr>
-<td>55x2</td>
-<td>Roll 55.0 or higher on a 100.00 sided die to win your bet.</td>
-<td><code>$55x2 &lt;bet&gt;</code></td>
-</tr>
-<tr>
-<td>75+</td>
-<td>Roll 75.00 or higher on a 100.00 sided die to win 2.6X your bet.</td>
-<td><code>$75+ &lt;bet&gt;</code></td>
-</tr>
-<tr>
-<td>99+</td>
-<td>Roll 99.00 or higher on a 100.00 sided die to win 90X your bet.</td>
-<td><code>$99+ &lt;bet&gt;</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="general">General</h3>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Description</th>
-<th>Usage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Buycommand</td>
-<td>Buy a command.</td>
-<td><code>$buycommand &lt;command&gt;</code></td>
-</tr>
-<tr>
-<td>Cash</td>
-<td>View the wealth of anyone.</td>
-<td><code>$cash [@member]</code></td>
-</tr>
-<tr>
-<td>Leaderboards</td>
-<td>View the richest Drug Traffickers.</td>
-<td><code>$leaderboards</code></td>
-</tr>
-<tr>
 <td>Modroles</td>
 <td>View all mod roles in this guild.</td>
-<td><code>$modroles</code></td>
+<td><code>+modroles</code></td>
 </tr>
 <tr>
 <td>Pinmessage</td>
 <td>Pin the last message sent by any member in the this channel.</td>
-<td><code>$pinmessage &lt;@member&gt;</code></td>
-</tr>
-<tr>
-<td>Rank</td>
-<td>View the rank of anyone.</td>
-<td><code>$rank [@member]</code></td>
-</tr>
-<tr>
-<td>Ranks</td>
-<td>View all ranks in this guild.</td>
-<td><code>$ranks</code></td>
-</tr>
-<tr>
-<td>Transfer</td>
-<td>Transfer money to any member.</td>
-<td><code>$transfer &lt;@member&gt; &lt;transfer&gt;</code></td>
+<td><code>+pinmessage &lt;@member&gt;</code></td>
 </tr>
 </tbody>
 </table>
@@ -372,37 +196,37 @@
 <tr>
 <td>Ban</td>
 <td>Swing the ban hammer on any member.</td>
-<td><code>$ban &lt;@user&gt; [reason]</code></td>
+<td><code>+ban &lt;@user&gt; [reason]</code></td>
 </tr>
 <tr>
 <td>Clear</td>
 <td>Clear up to 100 messages in any text channel.</td>
-<td><code>$clear &lt;quantity&gt; [reason]</code></td>
+<td><code>+clear &lt;quantity&gt; [reason]</code></td>
 </tr>
 <tr>
 <td>Kick</td>
 <td>Kick any member.</td>
-<td><code>$kick &lt;@member&gt; [reason]</code></td>
+<td><code>+kick &lt;@member&gt; [reason]</code></td>
 </tr>
 <tr>
 <td>Mute</td>
 <td>Mute any member.</td>
-<td><code>$mute &lt;@member&gt; [quantity of hours] [reason]</code></td>
+<td><code>+mute &lt;@member&gt; [quantity of hours] [reason]</code></td>
 </tr>
 <tr>
 <td>Unban</td>
 <td>Lift the ban hammer on any member.</td>
-<td><code>$unban &lt;user&gt; [reason]</code></td>
+<td><code>+unban &lt;user&gt; [reason]</code></td>
 </tr>
 <tr>
 <td>Unmute</td>
 <td>Unmute any member.</td>
-<td><code>$unmute &lt;@member&gt; [reason]</code></td>
+<td><code>+unmute &lt;@member&gt; [reason]</code></td>
 </tr>
 <tr>
 <td>Warn</td>
 <td>Warn any member.</td>
-<td><code>$warn &lt;@member&gt; [reason]</code></td>
+<td><code>+warn &lt;@member&gt; [reason]</code></td>
 </tr>
 </tbody>
 </table>
@@ -420,79 +244,22 @@
 <tr>
 <td>Addmodrole</td>
 <td>Add a mod role.</td>
-<td><code>$addmodrole &lt;@role&gt; &lt;permissionLevel&gt;</code></td>
+<td><code>+addmodrole &lt;@role&gt; &lt;permissionLevel&gt;</code></td>
 </tr>
 <tr>
 <td>Removemodrole</td>
 <td>Remove a mod role.</td>
-<td><code>$removemodrole &lt;@role&gt;</code></td>
+<td><code>+removemodrole &lt;@role&gt;</code></td>
 </tr>
 <tr>
 <td>Reset</td>
 <td>Resets all user data in your server.</td>
-<td><code>$reset</code></td>
+<td><code>+reset</code></td>
 </tr>
 <tr>
 <td>Resetuser</td>
 <td>Reset any member's data.</td>
-<td><code>$resetuser [@member]</code></td>
-</tr>
-</tbody>
-</table>
-<h3 id="sponsor">Sponsor</h3>
-<table>
-<thead>
-<tr>
-<th>Command</th>
-<th>Description</th>
-<th>Usage</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Buysponsor</td>
-<td>Gain access to all the sponsorship benfits.</td>
-<td><code>$buysponsor [number of days]</code></td>
-</tr>
-<tr>
-<td>Claim</td>
-<td>Claim a reward for being referred.</td>
-<td><code>$claim &lt;code&gt;</code></td>
-</tr>
-<tr>
-<td>Codeinfo</td>
-<td>View the information of any referral code.</td>
-<td><code>$codeinfo &lt;code&gt;</code></td>
-</tr>
-<tr>
-<td>Pointsleaderboards</td>
-<td>View the best referrers.</td>
-<td><code>$pointsleaderboards</code></td>
-</tr>
-<tr>
-<td>Refer</td>
-<td>View your referral code along with an invite link to this server.</td>
-<td><code>$refer</code></td>
-</tr>
-<tr>
-<td>Sellpoints</td>
-<td>View your referral code along with an invite link to this server.</td>
-<td><code>$sellpoints &lt;number of points&gt; &lt;price&gt; &lt;@member&gt;</code></td>
-</tr>
-<tr>
-<td>Setreferralcode</td>
-<td>Set your referral code.</td>
-<td><code>$setreferralcode &lt;code&gt;</code></td>
-</tr>
-<tr>
-<td>Sponsor</td>
-<td>View all the sponsorship benefits.</td>
-<td><code>$sponsor</code></td>
-</tr>
-<tr>
-<td>Sponsortime</td>
-<td>View the time remaining on your sponsorship.</td>
-<td><code>$sponsortime [@member]</code></td>
+<td><code>+resetuser [@member]</code></td>
 </tr>
 </tbody>
 </table>
@@ -509,22 +276,17 @@
 <tr>
 <td>Help</td>
 <td>All command information.</td>
-<td><code>$help [command]</code></td>
+<td><code>+help [command]</code></td>
 </tr>
 <tr>
 <td>Info</td>
-<td>All the information about the DEA cash system.</td>
-<td><code>$info</code></td>
+<td>All the information about the SauceBot cash system.</td>
+<td><code>+info</code></td>
 </tr>
 <tr>
 <td>Invite</td>
-<td>Add DEA to your server.</td>
-<td><code>$invite</code></td>
-</tr>
-<tr>
-<td>Statistics</td>
-<td>Statistics about DEA.</td>
-<td><code>$statistics</code></td>
+<td>Add SauceBot to your server.</td>
+<td><code>+invite</code></td>
 </tr>
 </tbody>
 </table>
@@ -548,7 +310,7 @@
     
   </div>
 
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+  Based off of <a href="https://github.com/RealBlazeIt/dea/tree/master/docs">Blaze It's docs source code</a>.
 </footer>
 	  
         </div>
@@ -561,7 +323,7 @@
   <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
-          <a href="https://github.com/RealBlazeIt/DEA" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
+          <a href="https://github.com/LumiteDubbz/lumitedubbz.github.io/edit/master/docs/index.html" class="fa fa-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
         <span><a href="../setup/" style="color: #fcfcfc;">&laquo; Previous</a></span>
